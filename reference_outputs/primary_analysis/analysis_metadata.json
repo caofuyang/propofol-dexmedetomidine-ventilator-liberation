@@ -1,0 +1,13 @@
+{
+  "random_seed": 20260924,
+  "source": "MIMIC-IV 3.1",
+  "follow_up_origin": "end of 6-hour strategy assessment window",
+  "outcome": "documented extubation not coded as unplanned within 48 hours without hospital-admission-level reintubation code, invasive-ventilation restart, tracheostomy, or death within 72 hours; live hospital discharge ends in-hospital ascertainment without observed failure",
+  "weighting": "overlap weighting from logistic propensity score",
+  "model_specification_sensitivity": "Alternative regularized spline-logit propensity model with 4 knots for eligible continuous covariates; uncertainty conditional on fitted weights.",
+  "bootstrap": "Primary analysis: 300 subject_id-cluster nonparametric resamples with full refitting of variable screening, imputation, scaling, encoding, and propensity model; sensitivity analyses: 1000 subject_id-cluster multiplier replicates conditional on fitted weights.",
+  "treatment_window": "Half-open [landmark, landmark+6h) dexmedetomidine initiation interval; propofol discontinuation and raw dexmedetomidine coverage required at landmark+6h for transition. Continuation requires gap-free raw propofol coverage across the full 6-hour window. Later treatment changes are allowed in the primary point-strategy estimand.",
+  "diagnosis_covariates": "Hospital-discharge ICD diagnosis domains excluded from the treatment model and balance estimand to prevent future-information leakage.",
+  "safety_outcomes": "Post hoc safety analysis over 24 hours after follow-up origin: hemodynamic risks are estimated only for trials with >=2 valid post-origin measurements; new bradycardia requires >=2 distinct HR readings <50/min with no analogous baseline event; new hypotension requires >=2 distinct MAP readings <65 mm Hg with no analogous baseline event; severe thresholds are HR <40/min and MAP <55 mm Hg; vasopressor escalation is a new or additional agent class.",
+  "source_parse_note": "Malformed labevents CSV records were skipped with DuckDB ignore_errors=true; selected target analytes were otherwise retained."
+}

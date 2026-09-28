@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or the reference outputs, please cite the accompanying article."
+title: "Analysis code for: Propofol-to-Dexmedetomidine Transition During Ventilator Liberation and Early Stable Extubation: A Sequential Landmark Emulation"
+type: software
+authors:
+  - family-names: Li
+    given-names: Juan
+  - family-names: Wu
+    given-names: Xinshun
+  - family-names: Zeng
+    given-names: Ruxiao
+  - family-names: Liu
+    given-names: Xiaomei
+  - family-names: Cao
+    given-names: Fuyang
+version: "1.0.0"
+date-released: "2026-09-28"
+license: MIT
+repository-code: "https://github.com/caofuyang/propofol-dexmedetomidine-ventilator-liberation"
+keywords:
+  - MIMIC-IV
+  - target trial emulation
+  - sequential landmark
+  - dexmedetomidine
+  - propofol
+  - ventilator liberation
+  - extubation
+  - overlap weighting

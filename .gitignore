@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+outputs/
+work/cache/
+*.parquet
+work/outcome_event_review_sample_blinded.csv
+work/outcome_event_review_sample_key.csv
+work/outcome_event_adjudication_locked.csv
+.DS_Store
+Thumbs.db

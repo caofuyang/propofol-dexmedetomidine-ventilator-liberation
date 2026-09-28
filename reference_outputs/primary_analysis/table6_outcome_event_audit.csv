@@ -1,0 +1,15 @@
+audit_metric,count
+unique_documented_extubation_events,6793
+events_with_unplanned_extubation_code,17
+events_not_coded_as_unplanned,6776
+stable_success_events,5736
+stable_success_events_with_unplanned_code,0
+stable_success_events_with_vent_restart,0
+reintubation_within_72h,483
+invasive_vent_restart_within_72h,572
+vent_restart_without_reintubation_code,120
+tracheostomy_within_72h,13
+death_within_72h,429
+cross_icu_stay_reintubation_within_72h,19
+live_hospital_discharge_before_72h,447
+stable_success_with_full_72h_in_hospital,5319

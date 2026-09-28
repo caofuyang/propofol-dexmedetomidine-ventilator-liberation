@@ -1,0 +1,9 @@
+stage_order,stage,trial_instances,unique_subjects,unique_stays
+1,Landmark eligible and event-free through window,72504,13361,14825
+2,Strict-window strategy classifiable,62320,11743,12927
+3,Raw propofol record covers landmark,61455,11683,12862
+4,Invasive ventilation covers window end,61355,11647,12824
+5,Strategy drug covers window end,60431,11551,12719
+6,Final v11 analysis cohort,54980,11201,12320
+7,Transition strategy,994,982,994
+8,Continuation strategy,53986,10994,12077

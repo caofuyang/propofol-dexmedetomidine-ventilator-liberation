@@ -1,0 +1,6 @@
+{
+  "outcome": "O2 device transition proxy; no invasive redocumentation for 48 h and no death for 72 h",
+  "hospital_restriction": "at least 20 propofol stays and O2-device observability >=50%",
+  "random_seed": 20260924,
+  "warning": "Proxy outcome is not equivalent to explicit planned extubation in MIMIC-IV."
+}
